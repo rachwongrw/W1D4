@@ -23,8 +23,6 @@ var sortedByName = students.sort(function(a,b) {
 
 });
 
-// console.log(sortedStudents);
-
 console.log(sortedByName);
 
 /* var array = [10, 2, 5, 1, 9];
