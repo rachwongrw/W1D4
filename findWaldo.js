@@ -1,12 +1,12 @@
 function findWaldo(arr, found) {
   var findIndex = arr.indexOf("Waldo");
-
-  for (var i = 0; i < arr.length; i++) {
-    if (arr[i] === "Waldo") {
+  arr.forEach(function(arr) {
+    if (arr === "Waldo") {
       found(findIndex);
     }
-  }
+  });
 }
+
 
 function actionWhenFound(found) {
   console.log("Found Waldo at index", found + "!");
