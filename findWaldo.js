@@ -34,4 +34,7 @@ function actionWhenFound(found) {
 
 findWaldo(["Alice", "Bob", "Waldo", "Winston"], actionWhenFound);
 
+
+
+
 */
