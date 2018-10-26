@@ -14,13 +14,13 @@ myMap(words, function(word) {
   return word.length;
 });
 
-// myMap(words, function(word) {
-//   return word.toUpperCase();
-// });
+myMap(words, function(word) {
+  return word.toUpperCase();
+});
 
-// myMap(words, function(word) {
-//   return word.split('').reverse().join('');
-// });
+myMap(words, function(word) {
+  return word.split('').reverse().join('');
+});
 
 
 
